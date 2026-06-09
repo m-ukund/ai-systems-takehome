@@ -1,0 +1,8 @@
+{
+  "status_code": 400,
+  "body": {
+    "error": "invalid_input",
+    "detail": "'ascii' codec can't encode character '\\xe0' in position 108: ordinal not in range(128)",
+    "request_id": "a93d506a6ea9"
+  }
+}

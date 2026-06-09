@@ -1,5 +1,12 @@
 # Submission Notes, written by Mukund Ramakrishnan
 
+FOR THE USER:
+
+Download this repository. Navigate to the "demo" folder. Take a look at run_demo.py. Put in some examples of your choosing. Then, run python run_demo.py, and watch the magic happen!
+
+You will be asked for an ANTHROPIC_API_KEY which you should supply.
+
+
 ## What did Claude build for me?
 
 - **models.py** — makes sure that model output is untrusted until proven valid. What the model returns is pushed through these models, ensuring that items are categorized accurately.

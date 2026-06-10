@@ -3,6 +3,6 @@
   "body": {
     "error": "invalid_input",
     "detail": "receipt_text must be a non-empty string",
-    "request_id": "99fa899d295a"
+    "request_id": "4c04b858b937"
   }
 }

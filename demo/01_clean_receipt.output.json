@@ -1,8 +1,28 @@
 {
-  "status_code": 400,
+  "status_code": 200,
   "body": {
-    "error": "invalid_input",
-    "detail": "'ascii' codec can't encode character '\\xe0' in position 108: ordinal not in range(128)",
-    "request_id": "a93d506a6ea9"
+    "items": [
+      {
+        "item": "Uber Eats",
+        "amount": 34.2,
+        "category": "meals"
+      },
+      {
+        "item": "AWS invoice",
+        "amount": 412.0,
+        "category": "software"
+      },
+      {
+        "item": "Office Depot",
+        "amount": 28.5,
+        "category": "office_supplies"
+      },
+      {
+        "item": "Delta Airlines",
+        "amount": 890.0,
+        "category": "travel"
+      }
+    ],
+    "request_id": "87e2b063a8be"
   }
 }

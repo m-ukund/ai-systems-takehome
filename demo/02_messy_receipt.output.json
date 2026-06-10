@@ -1,8 +1,23 @@
 {
-  "status_code": 400,
+  "status_code": 200,
   "body": {
-    "error": "invalid_input",
-    "detail": "'ascii' codec can't encode character '\\xe0' in position 108: ordinal not in range(128)",
-    "request_id": "70338231246a"
+    "items": [
+      {
+        "item": "Marriott Hotel",
+        "amount": 1204.99,
+        "category": "travel"
+      },
+      {
+        "item": "GitHub Team Plan",
+        "amount": 44.0,
+        "category": "software"
+      },
+      {
+        "item": "Lunch w/ client",
+        "amount": 87.5,
+        "category": "meals"
+      }
+    ],
+    "request_id": "566130e231b3"
   }
 }

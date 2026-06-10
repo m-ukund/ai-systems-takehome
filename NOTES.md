@@ -52,6 +52,9 @@ With the help of AI, we have built a much stronger system than what we started w
 
 Take a look at run_results.png.
 
+
+One additional thing that I left out that could be fixed: when we do an injection adversarial attack, the injection is treated as a unit of data, with price 0. It "passes" since the injection doesn't affect the computation; it's just being treated as data (our model is resisting). But, if we wanted stricter behavior and NO EXTRA ITEMS, the fix would be a small prompt tweak (e.g., "ignore lines that are not clearly an item with a price; do not invent amounts — never emit amount: 0") and/or a post-validation filter dropping amount == 0 items.
+
 ---
 
 ## The rest of these notes are written by Claude, and are here for reference
